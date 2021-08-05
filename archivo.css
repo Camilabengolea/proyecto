@@ -1,0 +1,76 @@
+body { 
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 5px;
+    width: 100%;
+    color: black;
+}
+
+
+.flex{
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  letter-spacing: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+#fotosppal{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+
+.fotos {
+  height: 250px;
+  transition: height 2s;
+
+}
+.fotos:hover {
+  height: 570px;
+}
+
+
+.contacto{
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+P{
+  text-align: center;
+  margin-top: 2%;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+#formulario{
+  margin-left: 30%;
+  margin-right:30%;
+  margin-top: 1%;
+}
+
+.text{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+
+
+
+
