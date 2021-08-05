@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap);
+
 body { 
-    font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 5px;
     width: 100%;
     color: black;
@@ -27,17 +28,16 @@ h1{
 
 #fotosppal{
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 30% 30% 30%;
   justify-content: space-evenly;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
-
-.fotos {
-  height: 250px;
-  transition: height 2s;
-
+.fotos{
+  height: 100% ;
+  width: 100%;
 }
+
 .fotos:hover {
   height: 570px;
 }
@@ -61,16 +61,3 @@ P{
   margin-right:30%;
   margin-top: 1%;
 }
-
-.text{
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  font-weight: 600;
-  font-style: italic;
-}
-
-
-
-
-
-
